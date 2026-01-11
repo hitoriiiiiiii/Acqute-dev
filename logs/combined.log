@@ -1,0 +1,7 @@
+{"level":"info","message":"Hello from acquistions !","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:16:49:01 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:16:49:01 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acquistions !","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:17:52:36 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from acquistions !","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:17:53:00 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api"}
