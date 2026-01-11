@@ -5,3 +5,11 @@
 {"level":"info","message":"::1 - - [11/Jan/2026:17:52:36 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
 {"level":"info","message":"Hello from acquistions !","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [11/Jan/2026:17:53:00 +0000] \"GET / HTTP/1.1\" 200 24 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:17:03 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:18:19 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:28:54 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:30:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:30:52 +0000] \"POST /api/auth/sign-up?Prarthana= HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:30:54 +0000] \"POST /api/auth/sign-up?Prarthana= HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:33:08 +0000] \"POST /api/auth/sign-up?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [11/Jan/2026:19:33:11 +0000] \"POST /api/auth/sign-up?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
