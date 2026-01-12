@@ -45,3 +45,9 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:17:22:37 +0000] \"POST /api/users/1?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 404 27 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:17:22:41 +0000] \"POST /api/users/1?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 404 27 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:17:22:51 +0000] \"GET /api/users?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 404 27 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:37:01 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:37:01 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:37:02 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
