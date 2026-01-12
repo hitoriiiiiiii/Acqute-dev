@@ -6,6 +6,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import securityMiddleware from './middleware/security.middleware.js';
+import usersRoutes from './routes/users-route.js';
 
 const app = express();
 
@@ -21,7 +22,7 @@ app.use(morgan('combined' , { stream: {write : (message) => logger.info(message.
 app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
-  logger.info('Hello from acquistions !')
+  logger.info('Hello from acquistions !');
   res.status(200).send('Hello from acquistions !');
 });
 
@@ -34,9 +35,15 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/user', usersRoutes);
 
 app.get('/api', (req, res) => {
-  res.status(200).json({ message: 'Acquisitions API is running !' });
+  res.status(200).json({ message: 'Acquisitions API is running!' });
 });
+
+app.use((req, res) =>{
+  res.status(404).json({error: 'Route not found'});
+});
+
 
 export default app;

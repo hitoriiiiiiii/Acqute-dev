@@ -33,3 +33,15 @@
 {"level":"info","message":"::1 - - [12/Jan/2026:09:55:33 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [12/Jan/2026:09:55:34 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:13:54:46 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:14:46:42 +0000] \"GET /api/users/?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 404 149 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:14:46:56 +0000] \"POST /api/users/1?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 404 151 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:10:47 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:10:48 +0000] \"GET /api HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:10:48 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:15:54 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:15:54 +0000] \"GET /api HTTP/1.1\" 200 43 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:15:54 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [12/Jan/2026:17:18:51 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
