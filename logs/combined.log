@@ -13,3 +13,23 @@
 {"level":"info","message":"::1 - - [11/Jan/2026:19:30:54 +0000] \"POST /api/auth/sign-up?Prarthana= HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [11/Jan/2026:19:33:08 +0000] \"POST /api/auth/sign-up?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [11/Jan/2026:19:33:11 +0000] \"POST /api/auth/sign-up?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 400 59 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:09:38 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:28 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:29 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:30 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:30 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:31 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:31 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:31 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:32 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:32 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:33 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:33 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [12/Jan/2026:09:55:34 +0000] \"GET /health?name=Prarthana&email=contact%40email.com&password=1234&role=user HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
