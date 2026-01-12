@@ -4,9 +4,10 @@
     "es2022": true,
     "jest": true
   },
+  "extends": ["eslint:recommended", "plugin:jest/recommended"],
   "plugins": ["jest"],
-  "extends": [
-    "eslint:recommended",
-    "plugin:jest/recommended"
-  ]
+  "rules": {
+    "indent": ["error", 2],  // or 4 if you prefer, must match your code
+    "no-undef": "error"
+  }
 }

@@ -21,8 +21,7 @@ export default [
     },
     rules: {
       indent: ['error', 2, { SwitchCase: 1 }],
-      // Allow CRLF on Windows development environments
-      'linebreak-style': 'off',
+      'linebreak-style': 'off', // Allow CRLF on Windows
       quotes: ['error', 'single'],
       semi: ['error', 'always'],
       'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
@@ -34,7 +33,7 @@ export default [
     },
   },
   {
-    files: ['tests/**/*.js'],
+    files: ['test/**/*.js', 'tests/**/*.js'], // Match test folders
     languageOptions: {
       globals: {
         describe: 'readonly',

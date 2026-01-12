@@ -13,8 +13,8 @@ export const getAllUsers = async () => {
       updated_at: users.updated_at,
     }).from(users);
   } catch (error) {
-  logger.error(error);
-  throw error;
-}
+    logger.error(error);
+    throw error;
+  }
 
-  };
+};
